@@ -1,0 +1,19 @@
+﻿# Translations made by hand, for texts the dictionary doesn't have.
+# tools\New-PfcTranslation.ps1 (2025-Solution) puts them in pfc.lng; they take precedence
+# over the dictionary. Same format as pfc.lng: ID="text" or "Caption"="text".
+# Not yet reviewed by a native speaker.
+
+pfc_openidlogon_browser="Impossibile avviare l'accesso nel browser Web."
+pfc_openidlogon_codehelp="Fare clic su Accedi per accedere a %s nel browser Web."
+pfc_openidlogon_connect="Impossibile raggiungere il provider di identità (%s)."
+pfc_openidlogon_incorrectpassword="L'ID dell'utente o la password è errata."
+pfc_openidlogon_invalidresponse="La risposta del provider di identità non è valida."
+pfc_openidlogon_notconfigured="Mancano le impostazioni del provider di identità (endpoint del token, endpoint userinfo e ID client)."
+pfc_openidlogon_notconfiguredcode="Mancano le impostazioni del provider di identità (endpoint di autorizzazione, endpoint del token, endpoint userinfo e ID client)."
+pfc_openidlogon_pagemessage="È possibile chiudere questa finestra e tornare all'applicazione."
+pfc_openidlogon_pagetitle="Accesso completato"
+pfc_openidlogon_refused="Il provider di identità ha rifiutato l'accesso (%s)."
+pfc_openidlogon_signin="&Accedi"
+pfc_openidlogon_timeout="L'accesso nel browser Web non è stato effettuato in tempo. Fare clic su Accedi per riprovare."
+pfc_openidlogon_userinfo="Impossibile leggere le informazioni dell'utente dal provider di identità."
+pfc_openidlogon_waiting="In attesa dell'accesso nel browser Web..."

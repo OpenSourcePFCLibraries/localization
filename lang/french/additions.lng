@@ -1,0 +1,19 @@
+﻿# Translations made by hand, for texts the dictionary doesn't have.
+# tools\New-PfcTranslation.ps1 (2025-Solution) puts them in pfc.lng; they take precedence
+# over the dictionary. Same format as pfc.lng: ID="text" or "Caption"="text".
+# Not yet reviewed by a native speaker.
+
+pfc_openidlogon_browser="La connexion n'a pas pu être lancée dans le navigateur Web."
+pfc_openidlogon_codehelp="Cliquez sur Se connecter pour vous connecter à %s dans votre navigateur Web."
+pfc_openidlogon_connect="Le fournisseur d'identité est injoignable (%s)."
+pfc_openidlogon_incorrectpassword="L'ID utilisateur ou le mot de passe est incorrect."
+pfc_openidlogon_invalidresponse="La réponse du fournisseur d'identité n'est pas valide."
+pfc_openidlogon_notconfigured="Les paramètres du fournisseur d'identité (point de terminaison de jeton, point de terminaison userinfo et ID client) sont manquants."
+pfc_openidlogon_notconfiguredcode="Les paramètres du fournisseur d'identité (point de terminaison d'autorisation, point de terminaison de jeton, point de terminaison userinfo et ID client) sont manquants."
+pfc_openidlogon_pagemessage="Vous pouvez fermer cette fenêtre et revenir à l'application."
+pfc_openidlogon_pagetitle="Connexion terminée"
+pfc_openidlogon_refused="Le fournisseur d'identité a refusé la connexion (%s)."
+pfc_openidlogon_signin="&Se connecter"
+pfc_openidlogon_timeout="Vous ne vous êtes pas connecté à temps dans le navigateur Web. Cliquez sur Se connecter pour réessayer."
+pfc_openidlogon_userinfo="Les informations de l'utilisateur n'ont pas pu être lues auprès du fournisseur d'identité."
+pfc_openidlogon_waiting="En attente de votre connexion dans le navigateur Web..."

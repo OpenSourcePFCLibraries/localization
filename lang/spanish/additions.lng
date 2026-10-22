@@ -1,0 +1,19 @@
+﻿# Translations made by hand, for texts the dictionary doesn't have.
+# tools\New-PfcTranslation.ps1 (2025-Solution) puts them in pfc.lng; they take precedence
+# over the dictionary. Same format as pfc.lng: ID="text" or "Caption"="text".
+# Not yet reviewed by a native speaker.
+
+pfc_openidlogon_browser="No se pudo iniciar la sesión en el navegador web."
+pfc_openidlogon_codehelp="Haga clic en Iniciar sesión para iniciar sesión en %s en su navegador web."
+pfc_openidlogon_connect="No se pudo contactar con el proveedor de identidad (%s)."
+pfc_openidlogon_incorrectpassword="La identificación de usuario o la contraseña es incorrecta."
+pfc_openidlogon_invalidresponse="La respuesta del proveedor de identidad no es válida."
+pfc_openidlogon_notconfigured="Faltan los parámetros del proveedor de identidad (endpoint de token, endpoint de userinfo e ID de cliente)."
+pfc_openidlogon_notconfiguredcode="Faltan los parámetros del proveedor de identidad (endpoint de autorización, endpoint de token, endpoint de userinfo e ID de cliente)."
+pfc_openidlogon_pagemessage="Puede cerrar esta ventana y volver a la aplicación."
+pfc_openidlogon_pagetitle="Inicio de sesión completado"
+pfc_openidlogon_refused="El proveedor de identidad rechazó el inicio de sesión (%s)."
+pfc_openidlogon_signin="&Iniciar sesión"
+pfc_openidlogon_timeout="No inició sesión en el navegador web a tiempo. Haga clic en Iniciar sesión para volver a intentarlo."
+pfc_openidlogon_userinfo="No se pudo leer la información del usuario del proveedor de identidad."
+pfc_openidlogon_waiting="Esperando a que inicie sesión en su navegador web..."
