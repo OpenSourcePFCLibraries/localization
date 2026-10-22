@@ -38,9 +38,9 @@ Each file is plain text with one entry per line and tab-separated fields:
 | 1 | (empty) | |
 | 2 | Toolkit language ID (see the table above) | `15` |
 | 3 | Translated text | `Abbrechen` |
-| 4 | (empty) | |
+| 4 | Access key of the translated text (the letter after `&` in a caption), or empty | `A` |
 | 5 | English source text | `Cancel` |
-| 6 | (empty) | |
+| 6 | Access key of the English text, or empty | `C` |
 | 7 | Toolkit code for the kind of text | `4` |
 | 8 | Where the text appears, e.g. `Text`, `Microhelp`, `ToolBarItemText`, `Title`, `Item[]`, `Variable`, `Event Script`, `Function Script` | `Text` |
 | 9 | Comment | `Created from PTT Dictionary File` |
@@ -50,6 +50,33 @@ Values that contain tabs or line breaks, such as DataWindow expressions, are wra
 ### Encoding
 
 The files use the Windows ANSI code page (Windows-1252/ISO-8859-1) with Windows (CRLF) line endings, which is what the Translation Toolkit reads and writes. Accented characters such as `é` and `ß` are single bytes. **Don't re-save the files as UTF-8**, or those characters may come out garbled in the toolkit. GitHub may also show some accented characters incorrectly for the same reason.
+
+## PFC language files (PFC 2025 and later)
+
+PFC 2025 has a language service (`n_cst_language`) that translates PFC at run time from a language file, the same way PowerBuilder 2025 R2 translates its runtime messages with `lang\default.lng`. One copy of PFC serves every language, and the translations survive PFC fixes. The `lang` folder here has a first language file for each dictionary:
+
+| Folder | Language |
+|---|---|
+| `lang/danish` | Danish |
+| `lang/dutch` | Dutch |
+| `lang/french` | French |
+| `lang/german` | German |
+| `lang/italian` | Italian |
+| `lang/norwegian` | Norwegian |
+| `lang/spanish` | Spanish |
+| `lang/swedish` | Swedish |
+
+To use one, copy its `pfc.lng` to the `lang` folder of your application (next to the executable), and turn the service on with `gnv_app.of_SetLanguage(TRUE)` before opening windows.
+
+The files were made from the dictionaries by `tools\New-PfcTranslation.ps1` in the [2025-Solution](https://github.com/OpenSourcePFCLibraries/2025-Solution) repository, from the English `lang\pfc.lng` there:
+
+- About 87% of the entries are translated. The rest are at the end of each file, still in English, under "Not translated yet".
+- Messages the dictionary only had in pieces are marked "Check the word order".
+- The dictionaries have some mistakes, which carry over: for example, `german.dic` translates "Buffers" as "Rechner".
+
+Please review them. Pull requests with corrections are welcome: edit the `pfc.lng` files directly.
+
+The language files are UTF-16 text, like PowerBuilder's `default.lng`. Each line is an entry: a message by its ID (`pfc_logon_enterid="..."`) or a caption by its English text (`"&Cancel"="&Abbrechen"`). The PFC documentation describes the format and the service.
 
 ## Using a dictionary
 
