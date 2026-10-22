@@ -1,0 +1,19 @@
+﻿# Translations made by hand, for texts the dictionary doesn't have.
+# tools\New-PfcTranslation.ps1 (2025-Solution) puts them in pfc.lng; they take precedence
+# over the dictionary. Same format as pfc.lng: ID="text" or "Caption"="text".
+# Not yet reviewed by a native speaker.
+
+pfc_openidlogon_browser="Die Anmeldung konnte im Webbrowser nicht gestartet werden."
+pfc_openidlogon_codehelp="Klicken Sie auf Anmelden, um sich in Ihrem Webbrowser bei %s anzumelden."
+pfc_openidlogon_connect="Der Identitätsanbieter ist nicht erreichbar (%s)."
+pfc_openidlogon_incorrectpassword="Die Benutzer-ID oder das Kennwort ist falsch."
+pfc_openidlogon_invalidresponse="Die Antwort des Identitätsanbieters ist ungültig."
+pfc_openidlogon_notconfigured="Die Einstellungen des Identitätsanbieters (Token-Endpunkt, UserInfo-Endpunkt und Client-ID) fehlen."
+pfc_openidlogon_notconfiguredcode="Die Einstellungen des Identitätsanbieters (Autorisierungs-Endpunkt, Token-Endpunkt, UserInfo-Endpunkt und Client-ID) fehlen."
+pfc_openidlogon_pagemessage="Sie können dieses Fenster schließen und zur Anwendung zurückkehren."
+pfc_openidlogon_pagetitle="Anmeldung abgeschlossen"
+pfc_openidlogon_refused="Der Identitätsanbieter hat die Anmeldung abgelehnt (%s)."
+pfc_openidlogon_signin="&Anmelden"
+pfc_openidlogon_timeout="Sie haben sich nicht rechtzeitig im Webbrowser angemeldet. Klicken Sie auf Anmelden, um es erneut zu versuchen."
+pfc_openidlogon_userinfo="Die Benutzerinformationen konnten nicht vom Identitätsanbieter gelesen werden."
+pfc_openidlogon_waiting="Warten auf Ihre Anmeldung im Webbrowser..."

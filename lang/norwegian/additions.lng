@@ -1,0 +1,19 @@
+﻿# Translations made by hand, for texts the dictionary doesn't have.
+# tools\New-PfcTranslation.ps1 (2025-Solution) puts them in pfc.lng; they take precedence
+# over the dictionary. Same format as pfc.lng: ID="text" or "Caption"="text".
+# Not yet reviewed by a native speaker.
+
+pfc_openidlogon_browser="Påloggingen kunne ikke startes i nettleseren."
+pfc_openidlogon_codehelp="Klikk på Logg på for å logge på %s i nettleseren."
+pfc_openidlogon_connect="Identitetsleverandøren kunne ikke nås (%s)."
+pfc_openidlogon_incorrectpassword="Bruker-ID-en eller passordet er feil."
+pfc_openidlogon_invalidresponse="Svaret fra identitetsleverandøren er ugyldig."
+pfc_openidlogon_notconfigured="Innstillingene for identitetsleverandøren (token-endepunkt, userinfo-endepunkt og klient-ID) mangler."
+pfc_openidlogon_notconfiguredcode="Innstillingene for identitetsleverandøren (autorisasjonsendepunkt, token-endepunkt, userinfo-endepunkt og klient-ID) mangler."
+pfc_openidlogon_pagemessage="Du kan lukke dette vinduet og gå tilbake til programmet."
+pfc_openidlogon_pagetitle="Pålogging fullført"
+pfc_openidlogon_refused="Identitetsleverandøren avviste påloggingen (%s)."
+pfc_openidlogon_signin="&Logg på"
+pfc_openidlogon_timeout="Du logget ikke på i nettleseren i tide. Klikk på Logg på for å prøve igjen."
+pfc_openidlogon_userinfo="Brukerens opplysninger kunne ikke leses fra identitetsleverandøren."
+pfc_openidlogon_waiting="Venter på at du logger på i nettleseren..."

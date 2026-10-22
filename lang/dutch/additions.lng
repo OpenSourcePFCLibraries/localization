@@ -1,0 +1,19 @@
+﻿# Translations made by hand, for texts the dictionary doesn't have.
+# tools\New-PfcTranslation.ps1 (2025-Solution) puts them in pfc.lng; they take precedence
+# over the dictionary. Same format as pfc.lng: ID="text" or "Caption"="text".
+# Not yet reviewed by a native speaker.
+
+pfc_openidlogon_browser="Het inloggen kon niet in de webbrowser worden gestart."
+pfc_openidlogon_codehelp="Klik op Inloggen om in uw webbrowser in te loggen bij %s."
+pfc_openidlogon_connect="De identiteitsprovider is niet bereikbaar (%s)."
+pfc_openidlogon_incorrectpassword="Het gebruikers-ID of wachtwoord is onjuist."
+pfc_openidlogon_invalidresponse="Het antwoord van de identiteitsprovider is ongeldig."
+pfc_openidlogon_notconfigured="De instellingen van de identiteitsprovider (token-endpoint, userinfo-endpoint en client-ID) ontbreken."
+pfc_openidlogon_notconfiguredcode="De instellingen van de identiteitsprovider (autorisatie-endpoint, token-endpoint, userinfo-endpoint en client-ID) ontbreken."
+pfc_openidlogon_pagemessage="U kunt dit venster sluiten en terugkeren naar de toepassing."
+pfc_openidlogon_pagetitle="Inloggen voltooid"
+pfc_openidlogon_refused="De identiteitsprovider heeft het inloggen geweigerd (%s)."
+pfc_openidlogon_signin="&Inloggen"
+pfc_openidlogon_timeout="U bent niet op tijd ingelogd in de webbrowser. Klik op Inloggen om het opnieuw te proberen."
+pfc_openidlogon_userinfo="De gegevens van de gebruiker konden niet worden gelezen bij de identiteitsprovider."
+pfc_openidlogon_waiting="Wachten tot u inlogt in uw webbrowser..."

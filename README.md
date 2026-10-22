@@ -73,10 +73,11 @@ The files were made from the dictionaries by `tools\New-PfcTranslation.ps1` in t
 - About 87% of the entries are translated. The rest are at the end of each file, still in English, under "Not translated yet".
 - Messages the dictionary only had in pieces are marked "Check the word order".
 - The dictionaries have some mistakes, which carry over: for example, `german.dic` translates "Buffers" as "Rechner".
+- Texts the dictionaries don't have, such as the messages of the OpenID Connect logon window, are translated by hand in each folder's `additions.lng`. The script takes them from there before it looks in the dictionary, so they're kept each time the files are made again. They haven't been reviewed by native speakers yet.
 
-Please review them. Pull requests with corrections are welcome: edit the `pfc.lng` files directly.
+The files are made again whenever PFC gets new texts. Please review them. Pull requests with corrections are welcome: put them in the folder's `additions.lng`, in the same format as `pfc.lng`. A correction made directly in `pfc.lng` would be lost the next time the file is made.
 
-The language files are UTF-16 text, like PowerBuilder's `default.lng`. Each line is an entry: a message by its ID (`pfc_logon_enterid="..."`) or a caption by its English text (`"&Cancel"="&Abbrechen"`). The PFC documentation describes the format and the service.
+The language files are UTF-16 text, like PowerBuilder's `default.lng`; `additions.lng` is UTF-8, so that changes to it show up in diffs. Each line is an entry: a message by its ID (`pfc_logon_enterid="..."`) or a caption by its English text (`"&Cancel"="&Abbrechen"`). The PFC documentation describes the format and the service.
 
 ## Using a dictionary
 
