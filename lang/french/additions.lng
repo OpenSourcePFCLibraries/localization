@@ -19,3 +19,6 @@ pfc_openidlogon_userinfo="Les informations de l'utilisateur n'ont pas pu être l
 pfc_openidlogon_waiting="En attente de votre connexion dans le navigateur Web..."
 pfc_oauth2_devicecode="Entrez le code %s dans la page Web qui s'est ouverte (%s) et connectez-vous.~r~n~r~nLe code est dans le Presse-papiers."
 pfc_oauth2_devicecode.title="Connexion"
+
+# The dictionary has "?" for Help (the Help menu of French applications); the help window's title
+"Help"="Aide"
